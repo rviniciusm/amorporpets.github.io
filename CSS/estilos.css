@@ -36,9 +36,8 @@ body{
     left:0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 5% ), url("../IMAGENS/Principal.jpg");
+    background-image:  url("../IMAGENS/TELA_SITE-01.jpg");
     background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100%  80%, 50% 95%, 0 80%);
     z-index:-1;
 
     /* Nav */
@@ -319,8 +318,19 @@ body{
     object-position: 50% 50%;
 }
 
+.subtitle_parceiros{
+    text-align: center;
+    margin-top: 3em;
+    color: #E75746;
+}
+
 .parceiros_text{
    max-width: 700px;
+}
+
+.parceiros_paragraph{
+    text-align: center;
+    margin-top: 5px;
 }
 
 .parceiros_area{ 
@@ -359,6 +369,16 @@ body{
 .doar_answer{
     padding: 0 30px 0;
     overflow: hidden;
+}
+
+.doar_icon{
+    padding-top: 0px;
+    display: grid;
+    gap:1em;
+    justify-items: center;
+    width: 260px;
+    overflow: hidden;
+    margin:auto;
 }
 
 .doar_title{
@@ -401,6 +421,10 @@ body{
     display:block;
 }
 
+.doar_icon{
+    width: 100px;
+    
+}
 
 .doar_show input {
     font-size: 20px;
@@ -423,6 +447,7 @@ body{
     margin: 0 auto;
     margin-bottom: 30px;
   }
+
 
   /*Footer*/ 
 
@@ -609,6 +634,7 @@ body{
         margin-bottom: 30px;
       }
 
+
       .footer_container{
         flex-wrap: wrap;
       }
@@ -678,6 +704,24 @@ body{
         .doar_title{
             font-size: 1rem;
         }
+
+        .doar_show input {
+            font-size: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid #001A49;
+          }
+
+        .doar_show button {
+            font-size: 15px;
+            padding: 10px 20px;
+            background-color: #E75746;
+            color: #ffffff;
+            border: none;
+            border-radius: 10px;
+            margin-left: 10px;
+          }
+        
 
 
         .footer_title{
