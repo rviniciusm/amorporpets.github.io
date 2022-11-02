@@ -305,6 +305,7 @@ body{
 
 }
 
+
 .parceiros_body--show{
     pointer-events: unset;
     opacity: 1;
@@ -320,7 +321,6 @@ body{
 
 .subtitle_parceiros{
     text-align: center;
-    margin-top: 3em;
     color: #E75746;
 }
 
@@ -343,6 +343,8 @@ body{
     width: 90%;
     cursor:pointer;
 }
+
+
 
 .doar{
     text-align: center;
@@ -713,6 +715,7 @@ body{
           }
 
         .doar_show button {
+            margin-top: 10px;
             font-size: 15px;
             padding: 10px 20px;
             background-color: #E75746;
